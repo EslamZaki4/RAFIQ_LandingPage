@@ -3,6 +3,7 @@ import WelcomeMessage from '../welcomeMessage/WelcomeMessage';
 import Section from '../section/Section';
 import Counter from '../counter/Counter';
 import Ready from '../news/News';
+import Testimonials from '../Testimonials/Testimonials';
 
 function MiddleHome() {
   return (
@@ -11,6 +12,7 @@ function MiddleHome() {
       <WelcomeMessage />
       <Counter/>
       <AboutUs />
+      <Testimonials/>
       <Ready />
       
     </>
